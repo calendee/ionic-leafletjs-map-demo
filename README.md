@@ -30,4 +30,4 @@ Of course, it wouldn't exist without the fine folks from [Drifty](http://www.dri
 
 ## LICENSE
 
-ionic-leafletjs-map-demo is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository. Please review include libraries for license information specific to those projects.
+ionic-leafletjs-map-demo is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository. Please review included libraries for license information specific to those projects.
