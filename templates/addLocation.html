@@ -1,0 +1,44 @@
+<ion-modal-view>
+  <ion-header-bar class="bar-calm">
+
+    <h1 class="title">New Location</h1>
+
+    <div class="buttons">
+      <button class="button button-clear" ng-click="modal.hide()">Cancel</button>
+    </div>
+
+  </ion-header-bar>
+
+  <ion-content class="padding">
+
+    <form name="locationForm" ng-submit="saveLocation()">
+
+      <div class="list">
+
+        <label class="item item-input">
+          <span class="input-label">Name</span>
+          <input type="text" ng-model="newLocation.name" placeholder="What's Here?" ng-minlength="1" ng-maxlength="100" required>
+        </label>
+
+        <div class="item tabs tabs-secondary tabs-icon-left">
+          <a class="tab-item" href="#">
+            LAT : {{newLocation.lat | truncate:15}}
+          </a>
+          <a class="tab-item" href="#">
+            LNG : {{newLocation.lng | truncate:15}}
+          </a>
+        </div>
+
+      </div>
+
+      <div class="padding">
+
+        <button class="button button-block button-balanced" ng-disabled="locationForm.$invalid">Save Location</button>
+
+      </div>
+
+    </form>
+
+  </ion-content>
+
+</ion-modal-view>
