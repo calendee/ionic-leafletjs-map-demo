@@ -3,6 +3,9 @@ ionic-leafletjs-map-demo
 
 Simple Ionic Framework mapping application using the [Leaflet.js](http://leafletjs.com) library.
 
+# Demo
+http://development.ionic-leafletjs-map-demo.divshot.io/#/app/map
+
 # Installation
 - Ensure Ionic CLI installed
 
