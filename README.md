@@ -27,3 +27,7 @@ This app was based on a sample from [Ahmed Alparslan Özdemir](https://github.co
 Uses the [Angular Leaflet Directive](https://tombatossals.github.io/angular-leaflet-directive/) by [David Rubert](https://github.com/tombatossals).
 
 Of course, it wouldn't exist without the fine folks from [Drifty](http://www.drifty.com) and the [Ionic Framework Team](http://ionicframework.com).
+
+## LICENSE
+
+ionic-leafletjs-map-demo is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository. Please review include libraries for license information specific to those projects.
